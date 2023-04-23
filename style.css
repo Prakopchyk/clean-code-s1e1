@@ -38,7 +38,7 @@
 .list-item_task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .section-add-task__wrapper {
@@ -98,7 +98,7 @@
     border-radius: 6px;
     font-family: Lato, sans-serif;
     color: #888;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .input_text:focus {
@@ -142,7 +142,7 @@
 }
 
 .list-item>.input_text {
-    width: 226px
+    width: 226px;
 }
 
 .button_delete img {
@@ -158,18 +158,19 @@
 /* Completed */
 
 .section-completed-task__list .label {
-    text-decoration: line-through color: #888;
+    text-decoration: line-through;
+    color: #888;
 }
 
 /* Edit Task */
 
 .list-item .input_text {
-    display: none
+    display: none;
 }
 
 .list-item_mode_edit .input_text {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
 .list-item_mode_edit .label {
