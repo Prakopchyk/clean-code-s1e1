@@ -1,4 +1,5 @@
 /* Basic Style */
+
 .body {
     background-color: #f8f8f8;
     color: #333;
@@ -21,9 +22,11 @@
 }
 
 @media (max-width:768px) {
+
     .header {
         text-align: center;
     }
+
 }
 
 .article {
@@ -37,7 +40,6 @@
     display: inline-block;
     flex-grow: 1
 }
-
 
 .section-add-task__wrapper {
     display: flex;
@@ -99,7 +101,6 @@
     flex-grow: 1
 }
 
-
 .input_text:focus {
     color: #333;
 }
@@ -107,7 +108,6 @@
 /* New Task */
 
 .heading_new-task {
-    /* display: block; */
     margin: 0 0 20px;
 }
 
@@ -116,6 +116,7 @@
 }
 
 /* Task list */
+
 .list-item {
     overflow: hidden;
     padding: 20px 0;
@@ -155,11 +156,13 @@
 }
 
 /* Completed */
+
 .section-completed-task__list .label {
     text-decoration: line-through color: #888;
 }
 
 /* Edit Task */
+
 .list-item .input_text {
     display: none
 }
