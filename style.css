@@ -145,13 +145,13 @@
     width: 226px;
 }
 
-.button_delete img {
+.button_delete .img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
 
-.button_delete img:hover {
+.button_delete .img:hover {
     transform: rotateZ(0);
 }
 
